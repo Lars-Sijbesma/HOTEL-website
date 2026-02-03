@@ -12,8 +12,9 @@
 
 <body>
     <body style="background-image: url('../images/contact-page.jpg'); background-size: cover;">
-    <header>
-        <nav><a href="">Home</a><a href="">Restaurant</a><a href="">Kamers</a><a href="">Over ons </a><a href="">Contact
+    <header class="navbar">
+        <img src="../images/logo variant 2.png" alt="logo" class="logo">
+        <nav class="nav-links"><a href="homepage.php">Home</a><a href="restaurant.php">Restaurant</a><a href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="contact.php">Contact
             </a></nav>
     </header>
     <main class="container">
