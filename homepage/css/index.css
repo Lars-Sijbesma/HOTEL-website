@@ -1,9 +1,25 @@
+body {
+    background: bisque;
+    margin: 2px;
+    padding: 2px;
+}
+
 h1 {
     display: flex;
     justify-content: center;
+    background: bisque;
 }
 
 p {
     display: flex;
     justify-content: center;
+    background: bisque;
+}
+
+
+#carousel {
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+    top: 50%; left: 50%; transform: translate(-50%, -50%)
 }
