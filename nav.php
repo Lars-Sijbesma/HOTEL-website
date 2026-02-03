@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm bg-light">
+<!-- <nav class="navbar navbar-expand-sm bg-light">
 
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -13,4 +13,9 @@
       </li>
     </ul>
   </div>
+</nav> -->
+<nav>
+  <a href="index.php">Home</a>
+  <a href="restaurant.php">Restaurant</a>
+  <a href="contact.php">Contact</a>
 </nav>

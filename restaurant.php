@@ -12,14 +12,14 @@
         <h1>Restaurant</h1>
     </header>
     <main>
-        <article>
+        <section>
             <h2>Restaurant Hotel De Zonne Vallei</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto laudantium iure tempora voluptates amet et consequuntur sapiente, blanditiis sunt assumenda reiciendis, doloremque ad possimus? Quia voluptas sequi accusantium delectus.</p>
-            <section>
+            <article>
                 <h3>Menu</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quasi odio, vel similique saepe debitis, facilis ex fuga quos pariatur quisquam repellat a. Dolorum voluptatem modi eos ipsam debitis aut?</p>
-            </section>
-            <section>
+            </article>
+            <article>
                 <h3>openingstijden</h3>
                 <table>
                     <tr>
@@ -55,16 +55,16 @@
                         <td>10:00-22:00</td>
                     </tr>
                 </table>
-            </section>
-            <section>
+            </article>
+            <article>
                 <h3>reseveringen</h3>
                 <p>idk</p>
-            </section>
-            <section>
+            </article>
+            <article>
                 <h3>galerij</h3>
-                <img src="https://www.laurasbakery.nl/wp-content/uploads/2015/10/Pannenkoeken-1a-verbeterd.jpg" alt="pannenkoeken">
-            </section>
-        </article>
+                <img src="./imgs/pannenkoeken.jpg" alt="pannenkoeken">
+            </article>
+        </section>
     </main>
     <?php include 'footer.php' ?>
 </body>
