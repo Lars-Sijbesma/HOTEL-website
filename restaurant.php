@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="resstyle.css">
     <title>Restaurant</title>
 </head>
 <body>
@@ -20,11 +21,11 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quasi odio, vel similique saepe debitis, facilis ex fuga quos pariatur quisquam repellat a. Dolorum voluptatem modi eos ipsam debitis aut?</p>
             </article>
             <article>
-                <h3>openingstijden</h3>
+                <h3>Openingstijden</h3>
                 <table>
                     <tr>
-                        <th>dag</th>
-                        <th>tijd</th>
+                        <th>Dag</th>
+                        <th>Tijd</th>
                     </tr>
                     <tr>
                         <td>Maandag</td>
@@ -57,11 +58,11 @@
                 </table>
             </article>
             <article>
-                <h3>reseveringen</h3>
+                <h3>Reseveringen</h3>
                 <p>idk</p>
             </article>
             <article>
-                <h3>galerij</h3>
+                <h3>Galerij</h3>
                 <img src="./imgs/pannenkoeken.jpg" alt="pannenkoeken">
             </article>
         </section>

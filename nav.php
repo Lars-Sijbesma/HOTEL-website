@@ -15,6 +15,7 @@
   </div>
 </nav> -->
 <nav>
+  <img src="./imgs/logo1.png" alt="logo">
   <a href="index.php">Home</a>
   <a href="restaurant.php">Restaurant</a>
   <a href="contact.php">Contact</a>
