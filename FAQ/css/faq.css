@@ -1,0 +1,21 @@
+.container {
+    margin-left: 100px;
+}
+summary {
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+    padding-bottom: 20px;
+
+}
+p {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    color:midnightblue;
+
+}
+h2 {
+    font-size: 1.4rem;
+}
+.general {
+}

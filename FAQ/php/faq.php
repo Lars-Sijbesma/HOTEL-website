@@ -11,30 +11,90 @@
 </head>
 
 <body>
-    <header class="navbar">
-        <img src="../images/logo variant 2.png" alt="logo" class="logo">
-        <nav class="nav-links"><a href="homepage.php">Home</a><a href="restaurant.php">Restaurant</a><a href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="contact.php">Contact
-            </a></nav>
-    </header>
-    <main>
-        <h1>General</h1>
-        <p>Booking Policy</p>
-        <p>Payment</p>
-        <p>Smoking</p>
+<?php include("../header.php"); ?>
+    <body style="background-image: url('../images/faq.jpg'); background-size: cover;">
+        
+        </header>
+        <main class="container">
+            <section class="general">
+                <h2>General</h2>
+                <details>
+                    <summary>Booking Policy</summary>
+                    <p> Reserveringen kunnen online of telefonisch worden gemaakt. Een reservering is pas
+                        definitief na bevestiging door ons. Annuleringen moeten binnen de aangegeven termijn worden
+                        doorgegeven.</p>
+                </details>
+                <details>
+                    <summary>Payment</summary>
+                    <p> Wij accepteren contant geld en de meeste gangbare creditcards en betaalpassen.
+                        Betaling dient te worden voldaan bij aankomst of vertrek, tenzij anders afgesproken.</p>
+                </details>
+                <details>
+                    <summary>Smoking</summary>
+                    <p> Ons hotel is volledig rookvrij. Roken is alleen toegestaan in de aangewezen buitenruimtes.
+                        Bij overtreding kunnen extra schoonmaakkosten in rekening worden gebracht.</p>
+                </details>
+            </section>
 
-        <h1>Hotel</h1>
-        <p>Check-in/Check-out</p>
-        <p>Parking</p>
-        <p>Amenities</p>
-        <p>Special Requests</p>
+            <section class="hotel">
+                <h2>Hotel</h2>
+                <details>
+                    <summary>Check-in/Check-out</summary>
+                    <p> Check-in is mogelijk vanaf 15:00 uur. Check-out dient te gebeuren vóór 11:00 uur.
+                        Vroeg inchecken of laat uitchecken is mogelijk op aanvraag en afhankelijk van beschikbaarheid.
+                    </p>
+                </details>
+                <details>
+                    <summary>Parking</summary>
+                    <p> Er is parkeergelegenheid beschikbaar voor gasten.
+                        Parkeren kan gratis of tegen betaling, afhankelijk van het type reservering en beschikbaarheid.
+                    </p>
+                </details>
+                <details>
+                    <summary>Amenities</summary>
+                    <p> Wij bieden diverse voorzieningen zoals gratis wifi, airconditioning, toiletartikelen, handdoeken
+                        en
+                        dagelijkse schoonmaakservice.</p>
+                </details>
+                <details>
+                    <summary>Special Requests</summary>
+                    <p> Speciale verzoeken zoals extra bedden, dieetwensen of kamerpreferenties kun je bij het boeken
+                        aangeven.
+                        Wij doen ons best om hieraan te voldoen, afhankelijk van beschikbaarheid.</p>
+                </details>
+            </section>
 
-        <h1>Restaurant</h1>
-        <p>Reservations</p>
-        <P>Hours</P>
-        <p>Menu</p>
-        <p>Events</p>
-        <p>Takeaway</p>
-    </main>
-</body>
+            <section class="restaurant">
+                <h2>Restaurant</h2>
+                <details>
+                    <summary>Reservations</summary>
+                    <p> Reserveren voor het restaurant wordt aangeraden, vooral in het weekend en tijdens drukke
+                        periodes.
+                        Reserveringen kunnen online of telefonisch worden gemaakt.</p>
+                </details>
+                <details>
+                    <summary>Hours</summary>
+                    <p>Het restaurant is dagelijks geopend. De exacte openingstijden kunnen variëren op feestdagen.
+                        Raadpleeg onze website voor actuele tijden.</p>
+                </details>
+                <details>
+                    <summary>Menu</summary>
+                    <p>Ons menu biedt een selectie van voor-, hoofd- en nagerechten, inclusief vegetarische opties. Het
+                        menu kan seizoensgebonden wijzigen.</p>
+                </details>
+                <details>
+                    <summary>Events</summary>
+                    <p>Wij organiseren regelmatig speciale evenementen zoals diners, feesten en zakelijke bijeenkomsten.
+                        Neem contact met ons op voor mogelijkheden en arrangementen.</p>
+                </details>
+                <details>
+                    <summary>Takeaway</summary>
+                    <p>Afhaalmaaltijden zijn beschikbaar tijdens openingstijden van het restaurant. Bestellingen kunnen
+                        vooraf telefonisch worden geplaatst.</p>
+                    <details>
+
+            </section>
+        </main>
+    </body>
 
 </html>
