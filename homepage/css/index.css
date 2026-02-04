@@ -1,19 +1,28 @@
 body {
-    background: bisque;
     margin: 2px;
     padding: 2px;
+    background-color: #F9F58B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4B006E;
+    width: 100%;
+
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background: bisque;
+    background-color: #F9F58B;
+
 }
 
 p {
     display: flex;
     justify-content: center;
-    background: bisque;
+    background-color: #F9F58B;
 }
 
 
