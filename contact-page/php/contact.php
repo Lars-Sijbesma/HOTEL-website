@@ -11,12 +11,8 @@
 </head>
 
 <body>
+    <?php include("../header.php"); ?>
     <body style="background-image: url('../images/contact-page.jpg'); background-size: cover;">
-    <header class="navbar">
-        <img src="../images/logo variant 2.png" alt="logo" class="logo">
-        <nav class="nav-links"><a href="homepage.php">Home</a><a href="restaurant.php">Restaurant</a><a href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="contact.php">Contact
-            </a></nav>
-    </header>
     <main class="container">
         <h1>Contact Opnemen</h1>
         <p>Heb je vragen over het hotel of problemen? Laat het ons weten!</p>
