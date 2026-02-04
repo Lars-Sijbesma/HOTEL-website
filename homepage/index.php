@@ -29,6 +29,8 @@
     <a>
         Contact pagina
     </a>
+
+    <img src="./images/logo%20variant%202.png" id="logo">
 </nav>
 
 <h1> Welkom bij hotel De Zonne Vallei</h1>
