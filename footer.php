@@ -1,3 +1,7 @@
 <footer>
-    <p>dit is de footer</p>
+    <article>
+        <h3>hotel De Zonne Vallei</h3>
+        
+        <a href="contact.php">contact</a>
+    </article>
 </footer>

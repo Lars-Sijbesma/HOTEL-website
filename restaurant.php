@@ -61,9 +61,10 @@
                 <h3>Reseveringen</h3>
                 <p>idk</p>
             </article>
-            <article>
-                <h3>Galerij</h3>
+            <article class="gallery">
+                <h3>Galerij</h3><br>
                 <img src="./imgs/pannenkoeken.jpg" alt="pannenkoeken">
+                <img src="./imgs/poffertjes.jpg" alt="poffertjes">
             </article>
         </section>
     </main>
