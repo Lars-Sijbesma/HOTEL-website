@@ -11,9 +11,9 @@
 </head>
 
 <body>
-<?php include("../header.php"); ?>
-    <body style="background-image: url('../images/faq.jpg'); background-size: cover;">
-        
+
+    <body style="background-image: url('../images/faq-background.png'); background-size: cover;">
+        <?php include("../header.php"); ?>
         </header>
         <main class="container">
             <section class="general">
@@ -91,7 +91,7 @@
                     <summary>Takeaway</summary>
                     <p>Afhaalmaaltijden zijn beschikbaar tijdens openingstijden van het restaurant. Bestellingen kunnen
                         vooraf telefonisch worden geplaatst.</p>
-                    <details>
+                </details>
 
             </section>
         </main>
