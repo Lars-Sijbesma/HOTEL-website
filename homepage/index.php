@@ -14,7 +14,7 @@
 <main>
 
 <nav>
-    <a>
+    <a href="index.php">
         Home pagina
     </a>
     <a>
