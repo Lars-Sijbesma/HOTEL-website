@@ -1,7 +1,7 @@
 body {
     margin: 2px;
     padding: 2px;
-    background-color: #F9F58B;
+    background-color: #B5925C;
 }
 
 nav {
@@ -9,20 +9,26 @@ nav {
     justify-content: space-evenly;
     background-color: #4B006E;
     width: 100%;
+    color: #FFFFFF;
 
+}
+
+nav a:hover {
+    color: #F9F58B;
+    text-decoration: none;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background-color: #F9F58B;
+    background-color: #B5925C;
 
 }
 
 p {
     display: flex;
     justify-content: center;
-    background-color: #F9F58B;
+    background-color: #B5925C;
 }
 
 
