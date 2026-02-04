@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<?php include("../../header.php"); ?>
+<?php include("../header.php"); ?>
     <body style="background-image: url('../images/faq.jpg'); background-size: cover;">
         
         </header>
