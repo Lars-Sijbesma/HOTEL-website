@@ -1,23 +1,6 @@
 body {
-    margin: 2px;
-    padding: 2px;
     background-color: #B5925C;
 }
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #4B006E;
-    width: 100%;
-    color: #FFFFFF;
-
-}
-
-nav a:hover {
-    color: #F9F58B;
-    text-decoration: none;
-}
-
 h1 {
     display: flex;
     justify-content: center;

@@ -10,9 +10,9 @@
 <body>
     <header class="navbar">
         <img src="../images/logo variant 2.png" alt="logo" class="logo">
-        <nav class="nav-links"><a href="homepage.php">Home</a><a href="restaurant.php">Restaurant</a><a
-                href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="contact.php">Contact</a><a
-                href="faq.php">FAQ</a>
+        <nav class="nav-links"><a href="../../homepage/index.php">Home</a><a href="../../restaurant/restaurant.php">Restaurant</a><a
+                href="kamers.php">Kamers</a><a href="../../over ons/over-ons.php">Over ons </a><a href="contact.php">Contact</a><a
+                href="../../FAQ/php/faq.php">FAQ</a>
             </a></nav>
         </header>
         <select id="languageSelect">

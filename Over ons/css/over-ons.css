@@ -1,23 +1,6 @@
 body {
     margin: auto;
     background-color: #B5925C;
-    padding: 3px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    color: #F9F58B;
-    background-color: #4B006E;
-}
-
-nav a:link {
-    color: #F9F58B;
-    text-decoration: none;
-}
-nav a:visited {
-    color: #F9F58B;
-    text-decoration: none;
 }
 
 h1 {

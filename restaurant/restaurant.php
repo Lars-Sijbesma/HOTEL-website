@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="resstyle.css">
+    <link rel="stylesheet" href="global.css">
     <title>Restaurant</title>
 </head>
 <body>
-    <header>
-        <?php include 'nav.php'?>
+    <?php include("header.php"); ?>
+    
         <h1>Restaurant</h1>
-    </header>
     <main>
         <section>
             <h2>Restaurant Hotel De Zonne Vallei</h2>

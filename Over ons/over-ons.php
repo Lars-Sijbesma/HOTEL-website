@@ -6,17 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/over-ons.css">
+    <link rel="stylesheet" href="css/global.css">
     <title>Over ons</title>
 </head>
 <body>
 <main>
-<nav>
-    <a>Home pagina</a>
-    <a>Restaurant</a>
-    <a>Kamers</a>
-    <a href="over-ons.html">Over ons</a>
-    <a>Contact pagina</a>
-</nav>
+    <?php include("header.php"); ?>
+
     <h1>
 Over Ons
     </h1>
