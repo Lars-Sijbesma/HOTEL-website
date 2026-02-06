@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.container > section {
+.container>section {
   flex: 1 1 300px;
   min-width: 280px;
   background: rgba(255, 255, 255, 0.8);
@@ -14,16 +14,17 @@
   box-sizing: border-box;
 }
 
- summary {
-    font-size: 1.2rem;
-    color: black;
-    cursor: pointer;
-    padding-bottom: 20px;
+summary {
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  padding-bottom: 20px;
 
 }
+
 p {
-    font-size: 1.2rem;
-    padding-bottom: 20px;
-    color:#3b3b3b;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  color: #3b3b3b;
 
 }
