@@ -33,7 +33,7 @@ footer{
     background-color: #F9F58B;
     width: 100%;
 }
-.gallery{
+.gallery img{
     display: flex;
     flex-direction: row;
     width: 20%;
@@ -41,17 +41,16 @@ footer{
     padding: 25px;
 }
 .gallery img{
-    width: 100%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
     object-fit: cover;
 }
 h3{
     padding: 2%;
 }
 footer{
-    position: fixed;
-    bottom: 0;
+    padding: 1%;
 }
 *{
-    color: #6500a4;
+    color: #5500a6;
 }

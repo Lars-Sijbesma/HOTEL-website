@@ -18,7 +18,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto laudantium iure tempora voluptates amet et consequuntur sapiente, blanditiis sunt assumenda reiciendis, doloremque ad possimus? Quia voluptas sequi accusantium delectus.</p>
             <article>
                 <h3>Menu</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quasi odio, vel similique saepe debitis, facilis ex fuga quos pariatur quisquam repellat a. Dolorum voluptatem modi eos ipsam debitis aut?</p>
+                <p>yes</p>
             </article>
             <article>
                 <h3>Openingstijden</h3>
@@ -62,7 +62,7 @@
                 <p>idk</p>
             </article>
             <article class="gallery">
-                <h3>Galerij</h3><br>
+                <h3>Galerij</h3>
                 <img src="./imgs/pannenkoeken.jpg" alt="pannenkoeken">
                 <img src="./imgs/poffertjes.jpg" alt="poffertjes">
             </article>
