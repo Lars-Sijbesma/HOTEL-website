@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -10,91 +10,97 @@
     <link rel="stylesheet" href="../css/faq.css">
 </head>
 
-<body>
+<body style="background-image: url('../images/faq-background.png'); background-size: cover;">
+    <?php include("../header.php"); ?>
+    </header>
+    <main class="container">
 
-    <body style="background-image: url('../images/faq-background.png'); background-size: cover;">
-        <?php include("../header.php"); ?>
-        </header>
-        <main class="container">
-            <section class="general">
-                <h2>General</h2>
-                <details>
-                    <summary>Boekingsbeleid</summary>
-                    <p> Reserveringen kunnen online of telefonisch worden gemaakt. Een reservering is pas
-                        definitief na bevestiging door ons. Annuleringen moeten binnen de aangegeven termijn worden
-                        doorgegeven.</p>
-                </details>
-                <details>
-                    <summary>Betaling</summary>
-                    <p> Wij accepteren contant geld en de meeste gangbare creditcards en betaalpassen.
-                        Betaling dient te worden voldaan bij aankomst of vertrek, tenzij anders afgesproken.</p>
-                </details>
-                <details>
-                    <summary>Roken</summary>
-                    <p> Ons hotel is volledig rookvrij. Roken is alleen toegestaan in de aangewezen buitenruimtes.
-                        Bij overtreding kunnen extra schoonmaakkosten in rekening worden gebracht.</p>
-                </details>
-            </section>
+        <section class="general">
+            <h2 data-translate="general_title">General</h2>
 
-            <section class="hotel">
-                <h2>Hotel</h2>
-                <details>
-                    <summary>Inchecken/Uitchecken</summary>
-                    <p> Check-in is mogelijk vanaf 15:00 uur. Check-out dient te gebeuren vóór 11:00 uur.
-                        Vroeg inchecken of laat uitchecken is mogelijk op aanvraag en afhankelijk van beschikbaarheid.
-                    </p>
-                </details>
-                <details>
-                    <summary>Parkeren</summary>
-                    <p> Er is parkeergelegenheid beschikbaar voor gasten.
-                        Parkeren kan gratis of tegen betaling, afhankelijk van het type reservering en beschikbaarheid.
-                    </p>
-                </details>
-                <details>
-                    <summary>Voorzieningen</summary>
-                    <p> Wij bieden diverse voorzieningen zoals gratis wifi, airconditioning, toiletartikelen, handdoeken
-                        en
-                        dagelijkse schoonmaakservice.</p>
-                </details>
-                <details>
-                    <summary>Speciale verzoeken</summary>
-                    <p> Speciale verzoeken zoals extra bedden, dieetwensen of kamerpreferenties kun je bij het boeken
-                        aangeven.
-                        Wij doen ons best om hieraan te voldoen, afhankelijk van beschikbaarheid.</p>
-                </details>
-            </section>
+            <details>
+                <summary data-translate="booking_policy">Boekingsbeleid</summary>
+                <p data-translate="booking_policy_text">
+                </p>
+            </details>
 
-            <section class="restaurant">
-                <h2>Restaurant</h2>
-                <details>
-                    <summary>Reserveringen</summary>
-                    <p> Reserveren voor het restaurant wordt aangeraden, vooral in het weekend en tijdens drukke
-                        periodes.
-                        Reserveringen kunnen online of telefonisch worden gemaakt.</p>
-                </details>
-                <details>
-                    <summary>Openingstijden</summary>
-                    <p>Het restaurant is dagelijks geopend. De exacte openingstijden kunnen variëren op feestdagen.
-                        Raadpleeg onze website voor actuele tijden.</p>
-                </details>
-                <details>
-                    <summary>Menu</summary>
-                    <p>Ons menu biedt een selectie van voor-, hoofd- en nagerechten, inclusief vegetarische opties. Het
-                        menu kan seizoensgebonden wijzigen.</p>
-                </details>
-                <details>
-                    <summary>Evenementen</summary>
-                    <p>Wij organiseren regelmatig speciale evenementen zoals diners, feesten en zakelijke bijeenkomsten.
-                        Neem contact met ons op voor mogelijkheden en arrangementen.</p>
-                </details>
-                <details>
-                    <summary>Afhalen</summary>
-                    <p>Afhaalmaaltijden zijn beschikbaar tijdens openingstijden van het restaurant. Bestellingen kunnen
-                        vooraf telefonisch worden geplaatst.</p>
-                </details>
+            <details>
+                <summary data-translate="payment">Betaling</summary>
+                <p data-translate="payment_text">
+                </p>
+            </details>
 
-            </section>
-        </main>
-    </body>
+            <details>
+                <summary data-translate="smoking">Roken</summary>
+                <p data-translate="smoking_text">
+                </p>
+            </details>
+        </section>
+
+        <section class="hotel">
+            <h2 data-translate="hotel_title">Hotel</h2>
+
+            <details>
+                <summary data-translate="checkin">Inchecken / Uitchecken</summary>
+                <p data-translate="checkin_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="parking">Parkeren</summary>
+                <p data-translate="parking_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="amenities">Voorzieningen</summary>
+                <p data-translate="amenities_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="special_requests">Speciale verzoeken</summary>
+                <p data-translate="special_requests_text">
+                </p>
+            </details>
+        </section>
+
+        <section class="restaurant">
+            <h2 data-translate="restaurant_title">Restaurant</h2>
+
+            <details>
+                <summary data-translate="reservations">Reserveringen</summary>
+                <p data-translate="reservations_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="hours">Openingstijden</summary>
+                <p data-translate="hours_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="menu">Menu</summary>
+                <p data-translate="menu_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="events">Evenementen</summary>
+                <p data-translate="events_text">
+                </p>
+            </details>
+
+            <details>
+                <summary data-translate="takeaway">Afhalen</summary>
+                <p data-translate="takeaway_text">
+                </p>
+            </details>
+        </section>
+
+    </main>
+    <script src="../js/multi-language.js"></script>
+</body>
 
 </html>
