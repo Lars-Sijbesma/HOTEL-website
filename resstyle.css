@@ -35,9 +35,9 @@ footer{
 }
 .gallery{
     display: flex;
-    
-    width: 200px;
-    height: 300px;
+    flex-direction: row;
+    width: 20%;
+    height: 20%;
     padding: 25px;
 }
 .gallery img{
@@ -48,4 +48,10 @@ footer{
 h3{
     padding: 2%;
 }
-footer
+footer{
+    position: fixed;
+    bottom: 0;
+}
+*{
+    color: #6500a4;
+}
