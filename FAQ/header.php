@@ -10,8 +10,8 @@
 <body>
     <header class="navbar">
         <img src="../images/logo variant 2.png" alt="logo" class="logo">
-        <nav class="nav-links"><a href="homepage.php">Home</a><a href="restaurant.php">Restaurant</a><a
-                href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="../../contact-page/php/contact.php">Contact</a><a
+        <nav class="nav-links"><a href="../../homepage/index.php">Home</a><a href="restaurant.php">Restaurant</a><a
+                href="kamers.php">Kamers</a><a href="../../over ons/over-ons.html">Over ons </a><a href="../../contact-page/php/contact.php">Contact</a><a
                 href="faq.php">FAQ</a>
             </a></nav>
         </header>
