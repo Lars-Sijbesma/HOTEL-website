@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container>section {
+  flex: 1 1 300px;
+  min-width: 280px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+summary {
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  padding-bottom: 20px;
+
+}
+
+p {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  color: #3b3b3b;
+
+}

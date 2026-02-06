@@ -78,6 +78,7 @@ function setLanguage(lang) {
         const key = el.dataset.translate; // Haal de sleutel op
         if (translations[lang] && translations[lang][key]) {
             el.innerText = translations[lang][key]; // Vervang de tekst in option
+
         }
     });
 }
