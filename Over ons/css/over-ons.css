@@ -1,0 +1,48 @@
+body {
+    margin: auto;
+    background-color: #B5925C;
+    padding: 3px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: #F9F58B;
+    background-color: #4B006E;
+}
+
+nav a:link {
+    color: #F9F58B;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #F9F58B;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+#zwembad {
+position: absolute;
+right: 10px;
+bottom: 250px;
+}
+
+#zwembad-tekts {
+    color: #FFFFFF;
+    position: absolute;
+    right: 70px;
+    top: 150px;
+    display: flex;
+}
+
+#spiegel {
+    display: flex;
+    width: 20%;
+    position: absolute;
+    top: 550px;
+}
