@@ -15,6 +15,10 @@
                 href="faq.php">FAQ</a>
             </a></nav>
         </header>
+        <select id="languageSelect">
+    <option value="nl">Nederlands</option>
+    <option value="en">English</option>
+</select>
 </body>
 
 </html>
