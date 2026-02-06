@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include("../header.php"); ?>
+    <?php include("../../FAQ/header.php"); ?>
     <body style="background-image: url('../images/contact-page.jpg'); background-size: cover;">
     <main class="container">
         <h1 data-translate="contact_title">Contact Opnemen</h1>
