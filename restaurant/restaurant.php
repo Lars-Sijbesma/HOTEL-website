@@ -18,7 +18,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto laudantium iure tempora voluptates amet et consequuntur sapiente, blanditiis sunt assumenda reiciendis, doloremque ad possimus? Quia voluptas sequi accusantium delectus.</p>
             <article>
                 <h3>Menu</h3>
-                <p>yes</p>
+                <p>word aan gewerkt</p>
             </article>
             <article>
                 <h3>Openingstijden</h3>
