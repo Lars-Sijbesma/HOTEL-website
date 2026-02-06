@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/faq.css">
 </head>
 
 <body>
@@ -15,8 +14,8 @@
                 href="kamers.php">Kamers</a><a href="over-ons.php">Over ons </a><a href="contact.php">Contact</a><a
                 href="faq.php">FAQ</a>
             </a></nav>
-    </header>
-    <select id="languageSelect">
+        </header>
+        <select id="languageSelect">
     <option value="nl">Nederlands</option>
     <option value="en">English</option>
 </select>
